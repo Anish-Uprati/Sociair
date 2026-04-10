@@ -13,14 +13,15 @@
             <span class="hover:text-blue-600">Modules</span>
             <span
               class="transition-transform duration-300 group-hover:rotate-180"
+              >▼</span
             >
-              ▼
-            </span>
           </div>
 
-          <div class="absolute left-0 pt-10">
+          <div
+            class="absolute left-0 top-full pt-6 z-50 opacity-0 invisible scale-95 translate-y-2 origin-top-left transition-all duration-200 group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0"
+          >
             <div
-              class="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 w-[700px] bg-white shadow-xl rounded-xl p-6 z-50"
+              class="opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-200 w-[700px] bg-white shadow-xl rounded-xl p-6"
             >
               <h2 class="text-xl font-semibold mb-4">Modules</h2>
 
@@ -99,6 +100,49 @@
           alt="dashboard"
           class="rounded-xl shadow-lg"
         />
+      </div>
+
+      <div class="max-w-6xl mx-auto">
+        <div
+          class="lg:h-[50vh] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center divide-y sm:divide-y-0 lg:divide-y-0 lg:divide-x divide-[#DEEAFB]"
+        >
+          <div class="flex items-center gap-6 h-[115px] px-8 py-6">
+            <img
+              src="file:///C:/Users/User/Downloads/download%20(1).svg"
+              class="w-[55px] h-[49.82px] rounded-[10.35px]"
+            />
+
+            <div>
+              <div class="text-[#5C6A7C]">Sales Growth</div>
+              <p class="text-[#154687] text-xl font-bold">99%</p>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-6 h-[115px] px-8 py-6">
+            <img
+              src="file:///C:/Users/User/Downloads/download.svg"
+              class="w-[55px] h-[49.82px] rounded-[10.35px]"
+            />
+
+            <div>
+              <div class="text-[#5C6A7C]">Active Users</div>
+              <p class="text-[#154687] text-xl font-bold">1000+</p>
+            </div>
+          </div>
+
+         
+          <div class="flex items-center gap-6 h-[115px] px-8 py-6">
+            <img
+              src="file:///C:/Users/User/Downloads/happy%20client.svg"
+              class="w-[55px] h-[49.82px] rounded-[10.35px]"
+            />
+
+            <div>
+              <div class="text-[#5C6A7C]">Happy Clients</div>
+              <p class="text-[#154687] text-xl font-bold">2000+</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>
