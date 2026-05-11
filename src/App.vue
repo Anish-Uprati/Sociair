@@ -101,51 +101,13 @@
           class="rounded-xl shadow-lg"
         />
       </div>
-
-      <div class="max-w-6xl mx-auto">
-        <div
-          class="lg:h-[50vh] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center divide-y sm:divide-y-0 lg:divide-y-0 lg:divide-x divide-[#DEEAFB]"
-        >
-          <div class="flex items-center gap-6 h-[115px] px-8 py-6">
-            <img
-              src="file:///C:/Users/User/Downloads/download%20(1).svg"
-              class="w-[55px] h-[49.82px] rounded-[10.35px]"
-            />
-
-            <div>
-              <div class="text-[#5C6A7C]">Sales Growth</div>
-              <p class="text-[#154687] text-xl font-bold">99%</p>
-            </div>
-          </div>
-
-          <div class="flex items-center gap-6 h-[115px] px-8 py-6">
-            <img
-              src="file:///C:/Users/User/Downloads/download.svg"
-              class="w-[55px] h-[49.82px] rounded-[10.35px]"
-            />
-
-            <div>
-              <div class="text-[#5C6A7C]">Active Users</div>
-              <p class="text-[#154687] text-xl font-bold">1000+</p>
-            </div>
-          </div>
-
-         
-          <div class="flex items-center gap-6 h-[115px] px-8 py-6">
-            <img
-              src="file:///C:/Users/User/Downloads/happy%20client.svg"
-              class="w-[55px] h-[49.82px] rounded-[10.35px]"
-            />
-
-            <div>
-              <div class="text-[#5C6A7C]">Happy Clients</div>
-              <p class="text-[#154687] text-xl font-bold">2000+</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
-  </div>
+    <StatsSection />
+    <SocialHero   />
+  </div> 
 </template>
 
-<script setup></script>
+<script setup>
+import StatsSection from './components/StatsSection.vue'
+import SocialHero from './components/SocialHero.vue'
+</script>
