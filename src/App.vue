@@ -104,10 +104,12 @@
     </section>
     <StatsSection />
     <SocialHero   />
+    <slidebar     />
   </div> 
 </template>
 
 <script setup>
 import StatsSection from './components/StatsSection.vue'
 import SocialHero from './components/SocialHero.vue'
+import slidebar from './components/slidebar.vue';
 </script>
