@@ -105,6 +105,7 @@
     <StatsSection />
     <SocialHero   />
     <slidebar     />
+    <SocManage   />
   </div> 
 </template>
 
@@ -112,4 +113,5 @@
 import StatsSection from './components/StatsSection.vue'
 import SocialHero from './components/SocialHero.vue'
 import slidebar from './components/slidebar.vue';
+import SocManage from './components/SocManage.vue';
 </script>

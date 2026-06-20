@@ -60,31 +60,57 @@
     </div>
   </div>
   <div class="px-4 md:px-8 lg:px-20 py-16 md:py-24 overflow-hidden">
-  <div
-    class="max-w-[1280px] w-full mx-auto min-h-[320px] flex items-center justify-center rounded-[40px] bg-cover bg-center bg-no-repeat"
-    style="background-image: url('https://sociair.com/_nuxt/readyToSimplify.Cq6l0h_u.svg');"
-  >
-    <div class="text-center px-6">
-      
-      <!-- Heading -->
-      <h2
-        class="text-[32px] md:text-[52px] font-bold leading-tight text-[#2E353E]"
-      >
-        Ready To Simplify Your
-        <span class="text-[#E77619]">Business?</span>
-      </h2>
-
-      <!-- Button -->
-      <div class="mt-10">
-        <a
-          href="/register"
-          class="inline-flex items-center justify-center bg-[#2374E1] hover:bg-[#1E63C7] text-white font-semibold text-lg px-10 py-4 rounded-full transition duration-300"
+    <div
+      class="max-w-[1280px] w-full mx-auto min-h-[320px] flex items-center justify-center rounded-[40px] bg-cover bg-center bg-no-repeat"
+      style="
+        background-image: url('https://sociair.com/_nuxt/readyToSimplify.Cq6l0h_u.svg');
+      "
+    >
+      <div class="text-center px-6">
+        <!-- Heading -->
+        <h2
+          class="text-[32px] md:text-[52px] font-bold leading-tight text-[#2E353E]"
         >
-          Start a Free Trial
-        </a>
-      </div>
+          Ready To Simplify Your
+          <span class="text-[#E77619]">Business?</span>
+        </h2>
 
+        <!-- Button -->
+        <div class="mt-10">
+          <a
+            href="/register"
+            class="inline-flex items-center justify-center bg-[#2374E1] hover:bg-[#1E63C7] text-white font-semibold text-lg px-10 py-4 rounded-full transition duration-300"
+          >
+            Start a Free Trial
+          </a>
+        </div>
+      </div>
     </div>
+    <!-- Discover the module -->
+    <div class="flex flex-col items-center justify-center py-12 md:py-16 lg:py-20">
+  <div class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Heading -->
+    <div class="text-center mb-10 md:mb-14">
+      <h2
+         class="font-bold text-[#2E353E] text-[24px] sm:text-[32px] md:text-[42px] lg:text-[52px] leading-[1.2] text-center"
+      >
+        Discover the
+        <span class="text-[#E77619]">Power</span>
+        of Each Module
+      </h2>
+    </div>
+
+    <!-- Image -->
+    <div>
+      <img
+        src="https://sociair.com/_nuxt/power-of-module.BbvYElAf.png"
+        alt="Power Of Module"
+        class="w-full max-w-[1400px] h-auto object-contain px-0 sm:px-2 md:px-4"
+      />
+    </div>
+
   </div>
 </div>
+  </div>
 </template>
